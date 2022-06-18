@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background: hsl(0, 0%, 95%);
+}
+
+nav {
+    text-align: right;
+    padding: 10px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0.25em;
+}
+
+.first-item {
+    background-color: darkblue;
+    width: 50%;
+    margin: auto;
+    display: grid;
+    gap: 10px;
+    grid-template-areas: 
+    "a a b"
+    "c d d"
+    "c e e"
+    ;
+}
+
+.item-a {
+    background-color: orangered;
+    grid-area: a;
+}
+
+.item-b {
+    background-color: orange;
+    grid-area: b;
+}
+
+.item-c {
+    background-color: green;
+    grid-area: c;
+}
+
+.item-d {
+    background-color: lightblue;
+    grid-area: d;
+}
+
+.item-e {
+    background-color: lightblue;
+    grid-area: e;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+main div { 
+    padding: 2em;
+    text-align: center;
+
+}
