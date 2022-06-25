@@ -7,3 +7,39 @@ nav a {
     text-decoration: none;
     margin: 0.25em;
 }
+
+main {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.card {
+    Width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+button {
+        background-color:white;
+        border: none;
+        color: :out-of-range
+        text-align: center
+        text-decoration: none
+}
+
+.SEDANS {
+    background:  hsl(31, 77%, 52%);
+    padding: 20px;
+
+}
+
+.SUVS {
+    background: hsl(184, 100%, 22%);
+    padding: 20px;
+}
+
+.LUXURY {
+    background: hsl(179, 100%, 13%);
+    padding: 20px;
+}
